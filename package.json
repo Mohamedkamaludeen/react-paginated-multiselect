@@ -1,6 +1,6 @@
 {
   "name": "react-paginated-multiselect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React multi-select dropdown with infinite scroll, server-side pagination, and async search. Zero UI framework dependencies - fully customizable styles.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -41,8 +41,8 @@
   },
   "homepage": "https://github.com/Mohamedkamaludeen/react-paginated-multiselect#readme",
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2025-11-16
+
+### Fixed
+- Added React 19 support to peer dependencies
+- Updated peer dependencies to support React ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
 ## [1.0.0] - 2025-11-16
 
 ### Added
