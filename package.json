@@ -1,0 +1,67 @@
+{
+  "name": "react-paginated-multiselect",
+  "version": "1.0.0",
+  "description": "A lightweight React multi-select dropdown with infinite scroll, server-side pagination, and async search. Zero UI framework dependencies - fully customizable styles.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamedkamaludeen/react-paginated-multiselect.git"
+  },
+  "keywords": [
+    "react",
+    "multiselect",
+    "dropdown",
+    "autocomplete",
+    "pagination",
+    "infinite-scroll",
+    "async-search",
+    "debounce",
+    "large-dataset",
+    "virtual-scroll",
+    "lightweight",
+    "customizable"
+  ],
+  "author": "Mohamed Kamaludeen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mohamedkamaludeen/react-paginated-multiselect/issues"
+  },
+  "homepage": "https://github.com/Mohamedkamaludeen/react-paginated-multiselect#readme",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-typescript": "^7.23.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "postcss": "^8.4.31",
+    "rollup": "^4.6.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.2.0"
+  },
+  "dependencies": {
+    "react-window": "^1.8.10"
+  }
+}

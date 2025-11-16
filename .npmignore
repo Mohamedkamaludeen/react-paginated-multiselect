@@ -1,0 +1,34 @@
+# Development files
+.git
+.gitignore
+*.md
+!README.md
+!CHANGELOG.md
+
+# Old source files (not part of the new package)
+BaseLiveLoadingAutocomplete.tsx
+liveLoadingAutocomplete.tsx
+
+# Development directories
+examples/
+node_modules/
+
+# Build config
+tsconfig.json
+rollup.config.js
+.prettierrc
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Tests
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+coverage/
